@@ -7,7 +7,7 @@ public class Bibliotecario {
 	private Integer id;
 	private String nome;
 	private String cpf;
-	public Bibliotecario() {
+	public Bibliotecario(int i, String string) {
 		super();
 	}
 	public Bibliotecario(Integer id, String nome, String cpf) {
